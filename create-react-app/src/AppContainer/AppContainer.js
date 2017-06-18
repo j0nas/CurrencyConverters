@@ -56,7 +56,7 @@ class AppContainer extends Component {
     }
 
     componentWillMount() {
-        fetch("http://api.fixer.io/latest")
+        fetch("https://api.fixer.io/latest")
             .then(res => res.json())
             .then(res => {
                 this.setState({rates: res.rates});
