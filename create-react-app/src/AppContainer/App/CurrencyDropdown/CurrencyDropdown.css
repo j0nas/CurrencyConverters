@@ -1,0 +1,15 @@
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid black;
+
+    background: transparent;
+    height: 40px;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+select:focus {
+    outline: none;
+}
